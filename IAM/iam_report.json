@@ -1,0 +1,483 @@
+{
+  "generated_at": "2025-12-18T05:21:39.827129",
+  "iam": {
+    "users": [
+      {
+        "user_name": "github-cicd-user",
+        "arn": "arn:aws:iam::758214541707:user/github-cicd-user",
+        "create_date": "2025-12-01T06:13:02+00:00",
+        "admin_access": false,
+        "attached_policies": [
+          "AmazonEC2ContainerRegistryFullAccess",
+          "CloudWatchLogsFullAccess",
+          "AmazonECS_FullAccess",
+          "IAMReadOnlyAccess"
+        ],
+        "inline_policies": []
+      },
+      {
+        "user_name": "hemanth",
+        "arn": "arn:aws:iam::758214541707:user/hemanth",
+        "create_date": "2025-12-17T09:11:29+00:00",
+        "admin_access": true,
+        "attached_policies": [
+          "AdministratorAccess",
+          "IAMUserChangePassword"
+        ],
+        "inline_policies": []
+      },
+      {
+        "user_name": "siva",
+        "arn": "arn:aws:iam::758214541707:user/siva",
+        "create_date": "2025-11-07T13:46:45+00:00",
+        "admin_access": true,
+        "attached_policies": [
+          "AdministratorAccess",
+          "IAMUserChangePassword"
+        ],
+        "inline_policies": []
+      }
+    ],
+    "roles": [
+      {
+        "role_name": "AWSServiceRoleForAutoScaling",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+        "create_date": "2025-11-10T05:43:02+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "autoscaling.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForECS",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+        "create_date": "2025-11-19T07:27:11+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ecs.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForElasticLoadBalancing",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing",
+        "create_date": "2025-11-10T07:57:12+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "elasticloadbalancing.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForGlobalAccelerator",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/globalaccelerator.amazonaws.com/AWSServiceRoleForGlobalAccelerator",
+        "create_date": "2025-11-20T11:32:26+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "globalaccelerator.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForOrganizations",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/organizations.amazonaws.com/AWSServiceRoleForOrganizations",
+        "create_date": "2024-01-22T13:56:12+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "organizations.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForResourceExplorer",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+        "create_date": "2025-11-06T17:19:14+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "resource-explorer-2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForSecurityHub",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/securityhub.amazonaws.com/AWSServiceRoleForSecurityHub",
+        "create_date": "2025-12-15T17:45:50+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "securityhub.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForSSO",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/sso.amazonaws.com/AWSServiceRoleForSSO",
+        "create_date": "2025-11-07T13:41:00+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "sso.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForSupport",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport",
+        "create_date": "2023-11-29T01:57:13+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "support.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "AWSServiceRoleForTrustedAdvisor",
+        "arn": "arn:aws:iam::758214541707:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor",
+        "create_date": "2023-11-29T01:57:13+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "trustedadvisor.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "cost-optimization-lambda_fn-role-sep68r5t",
+        "arn": "arn:aws:iam::758214541707:role/service-role/cost-optimization-lambda_fn-role-sep68r5t",
+        "create_date": "2025-11-24T10:46:15+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "EC2-instance-role",
+        "arn": "arn:aws:iam::758214541707:role/EC2-instance-role",
+        "create_date": "2025-12-11T12:55:34+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "ecsTaskExecutionRole",
+        "arn": "arn:aws:iam::758214541707:role/ecsTaskExecutionRole",
+        "create_date": "2025-11-19T07:26:31+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ecs-tasks.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "ecsTaskExecutionRole1",
+        "arn": "arn:aws:iam::758214541707:role/ecsTaskExecutionRole1",
+        "create_date": "2025-12-05T10:13:09+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Sid": "",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ecs-tasks.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "LMD-role-4fa896mo",
+        "arn": "arn:aws:iam::758214541707:role/service-role/LMD-role-4fa896mo",
+        "create_date": "2025-11-24T10:47:30+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "Newuser-XopsRole-qw5dzgRheGdF",
+        "arn": "arn:aws:iam::758214541707:role/Newuser-XopsRole-qw5dzgRheGdF",
+        "create_date": "2025-12-10T10:00:15+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "6928863ff98801657339be52"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "newuser02-XopsRole-5uq5h3cRLYbs",
+        "arn": "arn:aws:iam::758214541707:role/newuser02-XopsRole-5uq5h3cRLYbs",
+        "create_date": "2025-12-15T06:18:37+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "693fa7ca815c98163f91f1b3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "newuser1-XopsRole-eSpbrJBJ5Srr",
+        "arn": "arn:aws:iam::758214541707:role/newuser1-XopsRole-eSpbrJBJ5Srr",
+        "create_date": "2025-12-15T05:49:36+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "693fa0decb1b9ec7be4b9cb3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "siva-XopsRole-bDX8qO8eFvX6",
+        "arn": "arn:aws:iam::758214541707:role/siva-XopsRole-bDX8qO8eFvX6",
+        "create_date": "2025-11-27T06:05:20+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "68c2bf5d7991a0db1c6bd080"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "sivakumar-XopsRole-BHD9QnalRnCt",
+        "arn": "arn:aws:iam::758214541707:role/sivakumar-XopsRole-BHD9QnalRnCt",
+        "create_date": "2025-11-28T05:24:43+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "68c2bf5d7991a0db1c6bd080"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "SSM-Managed-Instance",
+        "arn": "arn:aws:iam::758214541707:role/SSM-Managed-Instance",
+        "create_date": "2025-12-12T13:35:21+00:00",
+        "max_session_duration": 3600,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "ec2.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+          }
+        ]
+      },
+      {
+        "role_name": "Vineeth-1-XopsRole-vc8xdxEcwpX0",
+        "arn": "arn:aws:iam::758214541707:role/Vineeth-1-XopsRole-vc8xdxEcwpX0",
+        "create_date": "2025-12-09T05:53:24+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "681c2a6fea07f83851e03ba1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "Vineeth-XopsRole-2absmd7cmImQ",
+        "arn": "arn:aws:iam::758214541707:role/Vineeth-XopsRole-2absmd7cmImQ",
+        "create_date": "2025-11-27T05:40:38+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "68c2bf5d7991a0db1c6bd080"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role_name": "Vineethuser-XopsRole-NP1ByIuRo19n",
+        "arn": "arn:aws:iam::758214541707:role/Vineethuser-XopsRole-NP1ByIuRo19n",
+        "create_date": "2025-12-10T09:13:55+00:00",
+        "max_session_duration": 10800,
+        "trusted_entities": [
+          {
+            "Effect": "Allow",
+            "Principal": {
+              "AWS": "arn:aws:iam::354680274398:root"
+            },
+            "Action": "sts:AssumeRole",
+            "Condition": {
+              "StringEquals": {
+                "sts:ExternalId": "681c2a6fea07f83851e03ba1"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "account_summary": {
+      "GroupPolicySizeQuota": 5120,
+      "InstanceProfilesQuota": 1000,
+      "Policies": 11,
+      "GroupsPerUserQuota": 10,
+      "InstanceProfiles": 2,
+      "AttachedPoliciesPerUserQuota": 10,
+      "Users": 3,
+      "PoliciesQuota": 1500,
+      "Providers": 0,
+      "AccountMFAEnabled": 1,
+      "AccessKeysPerUserQuota": 2,
+      "AssumeRolePolicySizeQuota": 2048,
+      "PolicyVersionsInUseQuota": 10000,
+      "GlobalEndpointTokenVersion": 1,
+      "VersionsPerPolicyQuota": 5,
+      "AttachedPoliciesPerGroupQuota": 10,
+      "PolicySizeQuota": 6144,
+      "Groups": 0,
+      "AccountSigningCertificatesPresent": 0,
+      "UsersQuota": 5000,
+      "ServerCertificatesQuota": 20,
+      "MFADevices": 2,
+      "UserPolicySizeQuota": 2048,
+      "PolicyVersionsInUse": 32,
+      "ServerCertificates": 0,
+      "Roles": 24,
+      "RolesQuota": 1000,
+      "SigningCertificatesPerUserQuota": 2,
+      "MFADevicesInUse": 2,
+      "RolePolicySizeQuota": 10240,
+      "AttachedPoliciesPerRoleQuota": 10,
+      "AccountAccessKeysPresent": 1,
+      "AccountPasswordPresent": 1,
+      "GroupsQuota": 300
+    }
+  }
+}

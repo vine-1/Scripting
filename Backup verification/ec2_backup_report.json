@@ -1,0 +1,66 @@
+{
+  "generated_at": "2025-12-18T19:26:05.426717",
+  "service": "EC2",
+  "instances": [
+    {
+      "instance_id": "i-02d0f24363322a883",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-04da2667495e99957",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0afb15668741c534e",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-06d0809adba604a85",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-00a3c5cac1a842746",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0af24453126fc511e",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0c44ae71444215bd7",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0505140a2cfc049c7",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-083091ee987790ab8",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0cc76ea6b7618f37b",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-07059a046e7e70905",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0404cd0e6696d2922",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-001b197530b79abe1",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-03fc74e0eb4d68b7f",
+      "backup_enabled": true
+    },
+    {
+      "instance_id": "i-0032895a47098ee96",
+      "backup_enabled": true
+    }
+  ]
+}
