@@ -1,0 +1,346 @@
+{
+  "generated_at": "2025-12-26T05:19:11.417225",
+  "service": "EC2",
+  "regions_scanned": [
+    "ap-south-2",
+    "ap-south-1",
+    "eu-south-1",
+    "eu-south-2",
+    "me-central-1",
+    "il-central-1",
+    "ca-central-1",
+    "ap-east-2",
+    "mx-central-1",
+    "eu-central-1",
+    "eu-central-2",
+    "us-west-1",
+    "us-west-2",
+    "af-south-1",
+    "eu-north-1",
+    "eu-west-3",
+    "eu-west-2",
+    "eu-west-1",
+    "ap-northeast-3",
+    "ap-northeast-2",
+    "me-south-1",
+    "ap-northeast-1",
+    "sa-east-1",
+    "ap-east-1",
+    "ca-west-1",
+    "ap-southeast-1",
+    "ap-southeast-2",
+    "ap-southeast-3",
+    "ap-southeast-4",
+    "us-east-1",
+    "ap-southeast-5",
+    "ap-southeast-6",
+    "us-east-2",
+    "ap-southeast-7"
+  ],
+  "summary": {
+    "total_regions": 34,
+    "total_instances": 21,
+    "instances_with_backup": 19,
+    "instances_without_backup": 2
+  },
+  "region_summary": {
+    "ap-south-2": {
+      "instance_count": 1,
+      "running": 1,
+      "stopped": 0
+    },
+    "ap-south-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-south-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-south-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "me-central-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "il-central-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ca-central-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-east-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "mx-central-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-central-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-central-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "us-west-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "us-west-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "af-south-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-north-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-west-3": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-west-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "eu-west-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-northeast-3": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-northeast-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "me-south-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-northeast-1": {
+      "instance_count": 1,
+      "running": 1,
+      "stopped": 0
+    },
+    "sa-east-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-east-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ca-west-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-1": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-3": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-4": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "us-east-1": {
+      "instance_count": 19,
+      "running": 10,
+      "stopped": 0
+    },
+    "ap-southeast-5": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-6": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "us-east-2": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    },
+    "ap-southeast-7": {
+      "instance_count": 0,
+      "running": 0,
+      "stopped": 0
+    }
+  },
+  "backup_monitoring": [
+    {
+      "region": "ap-south-2",
+      "instance_id": "i-0829ed519d6d35937",
+      "instance_state": "running",
+      "backup_enabled": false
+    },
+    {
+      "region": "ap-northeast-1",
+      "instance_id": "i-03c3bd269115751f9",
+      "instance_state": "running",
+      "backup_enabled": false
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-02d0f24363322a883",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-04da2667495e99957",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0afb15668741c534e",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0c44ae71444215bd7",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0505140a2cfc049c7",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-083091ee987790ab8",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0f22dcda236deeb8c",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0fd161b8bd6420692",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-01c7e2a1ac9a0104f",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0512c6035a7565cd7",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0a142dc03ad28da03",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-060f25c99370c6a33",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-07fe696e62ca30f56",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-07ffee71cdc1acea6",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-01cd5e0c9e23bbe2f",
+      "instance_state": "running",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0ec93d0ffb19962f6",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0ed276e1f57bc52c8",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-089c9de2c92c0d443",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    },
+    {
+      "region": "us-east-1",
+      "instance_id": "i-0baa864288e446b60",
+      "instance_state": "terminated",
+      "backup_enabled": true
+    }
+  ]
+}
