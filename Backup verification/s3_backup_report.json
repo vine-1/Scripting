@@ -1,0 +1,38 @@
+{
+  "generated_at": "2025-12-18T19:27:22.721251",
+  "service": "S3",
+  "buckets": [
+    {
+      "bucket_name": "codepipelinestartertempla-codepipelineartifactsbuc-ykgvvqmt8dmh",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "codepipelinestartertempla-codepipelineartifactsbuc-zclwqqtpdrk6",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "dummy-mywebsite-ajay-test",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "testing-s3-env",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "vstest-dem-buck",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "vstest-dem-buck-dummy",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "vstest2-public",
+      "versioning_enabled": false
+    },
+    {
+      "bucket_name": "web-s3-demo-bucket",
+      "versioning_enabled": true
+    }
+  ]
+}

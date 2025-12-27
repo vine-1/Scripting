@@ -1,0 +1,47 @@
+{
+  "generated_at": "2025-12-19T05:14:03.581094",
+  "service": "EC2",
+  "control": "Security Group Rule Analysis",
+  "findings": [
+    {
+      "security_group_id": "sg-0f1ab74db38d3f7eb",
+      "security_group_name": "prowler-asg-elb-sg",
+      "protocol": "tcp",
+      "port_range": "22-22",
+      "cidr": "0.0.0.0/0",
+      "risk": "OPEN_TO_WORLD"
+    },
+    {
+      "security_group_id": "sg-081bc0cc64bae7d3c",
+      "security_group_name": "launch-wizard-7",
+      "protocol": "tcp",
+      "port_range": "22-22",
+      "cidr": "0.0.0.0/0",
+      "risk": "OPEN_TO_WORLD"
+    },
+    {
+      "security_group_id": "sg-054e37f0c77d8f45c",
+      "security_group_name": "default",
+      "protocol": "tcp",
+      "port_range": "22-22",
+      "cidr": "0.0.0.0/0",
+      "risk": "OPEN_TO_WORLD"
+    },
+    {
+      "security_group_id": "sg-04bf8ebdfd582edb9",
+      "security_group_name": "launch-wizard-8",
+      "protocol": "tcp",
+      "port_range": "22-22",
+      "cidr": "0.0.0.0/0",
+      "risk": "OPEN_TO_WORLD"
+    },
+    {
+      "security_group_id": "sg-05fb5ceea4af19aa1",
+      "security_group_name": "launch-wizard-6",
+      "protocol": "tcp",
+      "port_range": "22-22",
+      "cidr": "0.0.0.0/0",
+      "risk": "OPEN_TO_WORLD"
+    }
+  ]
+}
